@@ -29,21 +29,6 @@ void Compute_CP2(size_t panel_index,
 
    BinvMultiply_B2(tree[panel_index].moments, tm);
 
-
-
-//============================================================
-/*
-   for (int i=0; i<64; i++)
-     {
-       tm[i] = 0.0;
-       for (int j=0; j<64; j++)
-         {
-           tm[i] += Binv[i][j]*tree[panel_index].moments[j];
-         }
-     }
-*/
-//============================================================
-
   double xmin = tree[panel_index].xinterval[0];
   double ymin = tree[panel_index].yinterval[0];
   double zmin = tree[panel_index].zinterval[0];
@@ -362,28 +347,6 @@ int main()
       lookup_table(dr, *kernel);
     }
     
-/*
-    if (treeMethod == "Cluster-Particle"){
-
-    // Read the inverse matrix from a file
-       Binv = new double*[64];
-       for (int i = 0; i < 64; i++)
-         Binv[i] = new double[64];
-
-       ifstream BinvFile("Bnew2Inv_Matrix.txt");
-       for (int i=0; i<64; i++)
-         {
-           for (int j=0; j<64; j++)
-             {
-               double value;
-               BinvFile >> value;
-               Binv[i][j] = value;
-             }
-         }
-       BinvFile.close();
-    }
-*/
-
     cout << "Starting treecode" << endl;
 	
     //***************** Set up tree *******************************
