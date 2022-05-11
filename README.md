@@ -119,7 +119,7 @@ Input for direct_sum and tricubics :
  
 // hgrid, any value when finite differences are not used. Do not delete.
 
-	0.01 # step-size for finite differences
+	0.01 # step-size for finite differences (can be varied as well)
 
 Output for the executable direct_sum :
 -------------------------------------
