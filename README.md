@@ -45,6 +45,13 @@ Summary of files :
                         
       lambda*.txt      : Files containing the weights of the particles in the
                          corresponding rand*.txt
+			 
+      C1_Inverse_Matrix.txt : The inverse matrix for the global C-1 tricubic due to 
+                             Lekien and Marsden (Int. J. Numer. Meth. Engng 2005; 63:455-471)
+			    
+      C0_Inverse_Matrix.txt : The inverse matrix for the global C-0 tricubic interpolation
+      
+      Discontinuous_Inverse_Matrix : The inverse matrix for the discontinuous tribucic interpolation
                         
                       
 
