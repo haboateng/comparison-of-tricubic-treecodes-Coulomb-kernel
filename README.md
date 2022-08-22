@@ -33,7 +33,7 @@ Code for three different tricubic treecodes with different global smoothness : C
 		 
         (2) Boateng. H. A., Tlupova, S.: A treecode algorithm based on 
             tricubic interpolation
-            Communications in Computer Physics, submitted, (2022)  
+            submitted, (2022)  
 	    
 Summary of files :
 ------------------
